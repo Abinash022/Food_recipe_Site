@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 375px;
+    height: 812px;
+    margin: auto;
+    font-family: "Cairo", sans-serif;
+  }
+  .shape31{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  }
+  
+  .shape32{
+    position: absolute;
+    top: 656px;
+    left: 0px;
+    z-index: -10;
+  }
+  
+  #header{
+    padding: 50px 140px 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header a {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #D6424D;
+    font-size: 24px;
+  
+  }
+  
+  h1{
+    color: #2f545c;
+    font-size: 30px;  
+  }
+  
+  #meals {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 7px;
+  }
+  
+  #meals a {
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+  }
+  
+  .meal {
+    width: 160px;
+    height: auto;
+    min-height: 240px;
+    background: rgba(214, 66, 77, 0.6);
+    background: radial-gradient(rgba(214, 66, 77, 0.6), #D6424D);;
+    border-radius: 20px;
+  }
+  
+  .meal img {
+    width: 140px;
+    margin: 15px 10px 0px 10px;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    margin-left: 10px;
+    margin-top: 0;
+    color: #2f545c;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  h4 {
+    margin-left: 10px;
+    color: #E9E1E2;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  

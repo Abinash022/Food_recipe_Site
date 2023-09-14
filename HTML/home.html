@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/homeStyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/da6da1fff8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <img class="shape1" src="../Assets/shape1.png" />
+    <img class="shape2" src="../Assets/shape2.png" />
+    <img class="shape3" src="../Assets/shape3.png" />
+    <img class="shape4" src="../Assets/shape4.png" />
+    <img class="shape5" src="../Assets/shape5.png" />
+
+    <header>
+      <h1>Foody</h1>
+    </header>
+
+    <section class="searchMeal">
+      <label>Search for a meal</label>
+      <div class="searchBox">
+        <input class="inputMealName" placeholder="Write meal name" />
+        <a href="./meal.html">
+          <!-- <img src="../Assets/Search.png" /> -->
+          <button class="btn"><img src="../Assets/Search.png" /></button>
+        </a>
+      </div>
+    </section>
+
+    <section class="exploreKitchens">
+      <label>Explore our kitchens</label>
+      <div  id="root"></div>
+      
+    </section>
+    <script src="../JS/Script.js" ></script>
+
+    <script src="../JS/countryMeal.js"></script>
+
+    <script src="../JS/searchingMeal.js"></script>
+
+  </body>
+</html>
